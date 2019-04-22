@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(186, 185, 184);
+    border: double 3px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+li, h3 {
+    text-align: left;
+}
