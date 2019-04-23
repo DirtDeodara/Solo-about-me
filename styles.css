@@ -4,15 +4,20 @@ body {
     margin: 20px;
     padding: 20px;
     box-shadow: 0 0 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Amatic SC', cursive;
 }
 h2 {
     font-size: 30px;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
 }
 li, h3 {
     text-align: left;
@@ -21,4 +26,8 @@ li, h3 {
    margin-left: auto;
    margin-right: auto;
    display: block;
+}
+
+#subHeading1 {
+    font-size: 40px;
 }
