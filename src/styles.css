@@ -30,3 +30,8 @@ li, h3 {
 #subHeading1 {
     font-size: 40px;
 }
+
+label {
+    display: block;
+    font-weight: bolder;
+}
