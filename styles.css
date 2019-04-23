@@ -22,9 +22,8 @@ h2 {
 li, h3 {
     text-align: left;
 }
-#bird {
-   margin-left: auto;
-   margin-right: auto;
+#bird, #jitsu {
+   margin: auto;
    display: block;
 }
 
