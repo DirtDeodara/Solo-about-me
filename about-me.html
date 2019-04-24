@@ -5,15 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Dirt</title>
+    <link rel="stylesheet" type="text/css" href="./src/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cutive+Mono" rel="stylesheet">
 </head>
 <body>
+    <div>
+        <h1>
+            Dirt Deodara
+        </h1>
+        
+        <img id='bird' src="https://i0.wp.com/thecrowleaps.com/wp-content/uploads/2019/03/crowicon.png?zoom=2&fit=300%2C300&ssl=1" 
+            alt="design of a soaring crow" width= 200px>
 
-    <h1>
-        Dirt.
-    </h1>
+        <h2 id='subHeading1'>
+            Student of jiu jitsu and code.
+        </h2>
+        
+        <h2>
+            Lover of dogs and alone time.
+        </h2>
+    </div>
 
-    <h2>
-        Student of jiu jitsu and code.
-    </h2>
+    <hr />
+
+    <div id='mainPart'>
+        <p>
+            I have walked many different paths in my life. Welder, tile setter,
+            screenprinter, wildland firefighter, jeweler, and even an aneasthesia 
+            technician when I was in my early 20s.
+        </p> 
+
+        <p>
+            I have been a drummer for most of my life and most recently played the band 
+            <a href="https://strangeweatherpdx.bandcamp.com/">Strangeweather</a>.
+        </p>
+
+        <p>
+            I have a wonderful Pitbull named Harvey who might be the most pure and
+            enlightened creature on Earth.
+        </p>
+
+        <h3>
+            A little bit more info about me:
+        </h3>
+        <ul>
+            <li>Age: 36</li>
+            <li>Hometown: Rochester, NY</li>
+            <li>Studies coding at Alchemy Code Lab</li>
+            <li>Studies Brazillian Jiu Jitsu at Straight Blast Gym</li>
+        </ul>
+    </div>
+    <img id='jitsu' src='https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/32767689_792802770910735_4936348162609643520_n.jpg?_nc_cat=109&_nc_ht=scontent-sea1-1.xx&oh=7a44dc1c8616db858249b38eed53e6cc&oe=5D35E24E' alt='a photo of me and some of my jiu jitsu family' width= 600px>
+
+    <section id='quiz'>
+        <h2>QUIZ ABOUT ME</h2>
+        <div>
+            <label for='park-answer'>What is my favorite National Park?</label>
+            <input id='park-answer'>
+        </div>
+        <div>
+            <label for='learn-answer'>Besides coding, what do I want to learn next?</label>
+            <input id='learn-answer'>
+        </div>
+        <div>
+            <label for='astro-answer'>What is my astrological sign?</label>
+            <input id='astro-answer'>
+        </div>
+        <div>
+            <label for='aquatic-answer'>What is my favorite aquatic animal?</label>
+            <input id='aquatic-answer'>
+        </div>
+        <div>
+            <label for='weather-answer'>Do I prefer rain or snow?</label>
+            <input id='weather-answer'>
+        </div>
+        <div>
+            <button id="submit-button">Submit</button>
+        </div>
+        <p id="quiz-result">Find out how much you know!</p>
+    </section>
+    
+    <script type="module" src="src/index.js"></script> 
 </body>
+
 </html>
