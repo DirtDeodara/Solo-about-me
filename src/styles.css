@@ -38,8 +38,9 @@ label {
 }
 
 input {
+    display: block;
     width: 300px;
-    height: 25px;   
+    height: 25px; 
 }
 
 #submit-button {
@@ -49,5 +50,4 @@ input {
     border: 1px solid black;
     margin-top: 10px;
     background-color: gold;
-    
 }
