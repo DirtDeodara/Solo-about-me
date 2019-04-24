@@ -8,7 +8,9 @@ const aquaticInput = document.getElementById('aquatic-answer');
 const weatherInput = document.getElementById('weather-answer');
 const resultParagraph = document.getElementById('quiz-result')
 
-submitButton.addEventListener('click', () => {
+submitButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    
     const parkAnswer = parkInput.value;
     const learnAnswer = learnInput.value;
     const astroAnswer = astroInput.value;

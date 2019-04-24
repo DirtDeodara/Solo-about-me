@@ -8,27 +8,27 @@ function scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weath
     
     let score = 0;
 
-    if(parkAnswer === 'Zion') {
+    if(parkAnswer === 'zion') {
         score += 1;
     }
 
-    if(learnAnswer === 'Surfing') {
+    if(learnAnswer === 'surfing') {
         score += 1;
     }
 
-    if(astroAnswer === 'Taurus') {
+    if(astroAnswer === 'taurus') {
         score += 1;
     }
 
-    if(aquaticAnswer === 'Octopus') {
+    if(aquaticAnswer === 'octopus') {
         score += 1;
     }
 
-    if(weatherAnswer === 'Snow') {
+    if(weatherAnswer === 'snow') {
         score += 1;
     }
 
     return score;
 }
 
-export default scoreAnswers
+export default scoreAnswers;
