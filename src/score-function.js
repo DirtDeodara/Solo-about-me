@@ -1,6 +1,5 @@
-
-
 function scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weatherAnswer) {
+   
     parkAnswer = parkAnswer.toLowerCase();
     learnAnswer = learnAnswer.toLowerCase();
     astroAnswer = astroAnswer.toLowerCase();
@@ -10,23 +9,23 @@ function scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weath
     let score = 0;
 
     if(parkAnswer === 'Zion') {
-        score++;
+        score += 1;
     }
 
     if(learnAnswer === 'Surfing') {
-        score++;
+        score += 1;
     }
 
     if(astroAnswer === 'Taurus') {
-        score++;
+        score += 1;
     }
 
     if(aquaticAnswer === 'Octopus') {
-        score++;
+        score += 1;
     }
 
     if(weatherAnswer === 'Snow') {
-        score++;
+        score += 1;
     }
 
     return score;

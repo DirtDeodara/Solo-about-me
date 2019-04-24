@@ -1,6 +1,4 @@
-
-
-import scoreAnswers from './score-function';
+import scoreAnswers from './score-answers.js';
 
 const submitButton = document.getElementById('submit-button');
 const parkInput = document.getElementById('park-answer');

@@ -1,8 +1,9 @@
+import scoreAnswers from '../src/score-function.js';
 const test = QUnit.test;
 
-test('all answers are wrong gets 0', function(assert) {
+test('all answers are wrong gets 0', (assert) => {
     const parkAnswer = 'Niagara Falls';
-    const learnAnswer = 'Soccer';
+    const learnAnswer = 'Skiing';
     const astroAnswer = 'Libra';
     const aquaticAnswer = 'Sea Slug';
     const weatherAnswer = 'Rain';
@@ -11,9 +12,10 @@ test('all answers are wrong gets 0', function(assert) {
     const score = scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weatherAnswer);
     //Assert
     assert.equal(score, expected);
+    console.log('hello world');
 });
 
-test('all answers are right gets 5', function(assert) {
+test('all answers are right gets 5', (assert) => {
     const parkAnswer = 'Zion';
     const learnAnswer = 'Surfing';
     const astroAnswer = 'Taurus';
@@ -24,4 +26,5 @@ test('all answers are right gets 5', function(assert) {
     const score = scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weatherAnswer);
     //Assert
     assert.equal(score, expected);
+    console.log('Goodbye');
 });
