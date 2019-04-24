@@ -31,3 +31,5 @@ function scoreAnswers(parkAnswer, learnAnswer, astroAnswer, aquaticAnswer, weath
 
     return score;
 }
+
+export default scoreAnswers
